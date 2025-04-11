@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: red;
+}
+
+.container {
+    width: 700px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    transform: translate(-50% , -50%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    border-radius: 20px;
+}
+.container h3 {
+    font-size: 40px;
+    margin-left: 30px;
+}
+.hom, .gue {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    align-items: center;
+    font-size: 100px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mbt button , .gbt button {
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    padding: 20px ;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+}
+button:active {
+    background-color: blue;
+    color: white;
+}
